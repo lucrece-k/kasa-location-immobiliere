@@ -1,0 +1,43 @@
+.ks-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-block: 45px 50px;
+  margin-inline: 5rem;
+}
+.ks-navbar .ks-logo {
+  margin-right: auto;
+}
+.ks-navbar .ks-lien-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.ks-navbar .ks-lien-nav a {
+  text-decoration: none;
+  color: black;
+}
+.ks-navbar .ks-lien-nav a:hover {
+  text-decoration: underline;
+}
+
+.ks-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-block: 66px 29px;
+  gap: 28px;
+}
+.ks-footer .footer-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.ks-footer .footer-logo .lettre {
+  width: 26.708px;
+  height: 30.954px;
+  margin-top: 6px;
+}/*# sourceMappingURL=global.css.map */

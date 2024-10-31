@@ -1,0 +1,140 @@
+.ks-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-block: 45px 50px;
+  margin-inline: 5rem;
+}
+.ks-navbar .ks-logo {
+  margin-right: auto;
+}
+.ks-navbar .ks-lien-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.ks-navbar .ks-lien-nav a {
+  text-decoration: none;
+  color: black;
+}
+.ks-navbar .ks-lien-nav a:hover {
+  text-decoration: underline;
+}
+
+.ks-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-block: 66px 29px;
+  gap: 28px;
+}
+.ks-footer .footer-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.ks-footer .footer-logo .lettre {
+  width: 26.708px;
+  height: 30.954px;
+  margin-top: 6px;
+}
+
+.ks-main {
+  margin-inline: 5rem;
+}
+
+.ks-banner {
+  background-image: url(../../public/assets/img-accueil-banner.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-radius: 2rem;
+  color: white;
+  position: relative;
+  height: 223px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.ks-banner h1 br {
+  display: none;
+}
+.ks-banner::before {
+  content: "";
+  position: absolute;
+  border-radius: 2rem;
+  opacity: 0.6;
+  background-color: black;
+  inset: 0;
+}
+
+.ks-location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: #f6f6f6;
+  border-radius: 2rem;
+  padding-block: 2rem;
+  margin-bottom: 2.5rem;
+}
+.ks-location .cart-location {
+  background: linear-gradient(180deg, rgb(255, 96, 96) 0%, rgb(255, 96, 96) 42%, rgb(163, 51, 51) 99.99%, rgb(152, 52, 52) 100%);
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-radius: 10px;
+  height: 340px;
+}
+.ks-location .cart-location p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  margin-inline-start: 20px;
+  margin-block-end: 20px;
+  width: 31%;
+}
+
+@media (max-width: 769px) {
+  .ks-navbar {
+    margin: 0;
+    margin-bottom: 27px;
+  }
+  .ks-navbar .ks-logo img {
+    width: 125px;
+  }
+  .ks-navbar .ks-lien-nav {
+    font-size: 16px;
+  }
+  .ks-main {
+    margin-inline: 0;
+  }
+  .ks-main .ks-banner {
+    margin-bottom: 22px;
+    height: 111px;
+  }
+  .ks-main .ks-banner h1 {
+    text-align: left;
+  }
+  .ks-location {
+    flex-direction: column;
+    align-items: normal;
+    background-color: white;
+    margin-bottom: 27px;
+    padding-block: 0;
+  }
+  .ks-location .cart-location {
+    width: 100%;
+  }
+  .ks-footer {
+    padding: 66px 90px 58px 92px;
+  }
+}/*# sourceMappingURL=index.css.map */
